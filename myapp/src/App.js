@@ -6,7 +6,7 @@ const App = () => {
   var b = a.reduce((acc, curr) => {
     //return acc;  - acc is the initial/first value of the array
     //return curr; - curr is the final/last value of the array
-    return acc + curr;
+    return acc + curr; //returns the sum of al values, from first value to last value
   });
 
   console.log(b);
