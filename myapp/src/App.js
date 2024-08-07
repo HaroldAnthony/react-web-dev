@@ -6,6 +6,7 @@ const App = () => {
   var b = a.reduce((acc, curr) => {
     //return acc;  - acc is the initial/first value of the array
     //return curr; - curr is the final/last value of the array
+    return acc + curr;
   });
 
   console.log(b);
