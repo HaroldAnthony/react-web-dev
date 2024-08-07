@@ -5,16 +5,11 @@ const App = () => {
 
 
   var a = [4,3,6,5,7];
-  
-  //STANDARD METHOD
-  // var b = a.map( function mapping(x){
-  //   return x*2;
-  // });
 
-  //ARROW FUNCTION METHOD
+  // var b = a.filter((x) => x>3);
+  // console.log(b);
 
-  const b = a.map((x) => x*2)
-  console.log(b);
+  //COMBINING MAP AND FILTER METH
 
 
 
