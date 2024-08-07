@@ -11,6 +11,9 @@ const App = () => {
 
   //COMBINING MAP AND FILTER METH
 
+  var b = a.map((x) => x/2).filter((x) => x>2);
+  console.log(b);
+
 
 
   return <div>App</div>;
