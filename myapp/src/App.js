@@ -1,10 +1,7 @@
 import React from "react";
 
 const App = () => {
-
-
-
-  var a = [4,3,6,5,7];
+  var a = [4, 3, 6, 5, 7];
 
   var b = a.reduce((acc, curr) => {
     //return acc;  - acc is the initial/first value of the array
@@ -12,8 +9,6 @@ const App = () => {
   });
 
   console.log(b);
-
-
 
   return <div>App</div>;
 };
