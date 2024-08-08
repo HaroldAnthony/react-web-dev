@@ -1,17 +1,10 @@
 import React from "react";
+import Component from "./component";
 
 const App = () => {
-  var a = [4, 3, 6, 5, 7];
-
-  var b = a.reduce((acc, curr) => {
-    //return acc;  - acc is the initial/first value of the array
-    //return curr; - curr is the final/last value of the array
-    return acc + curr; //returns the sum of al values, from first value to last value
-  });
-
-  console.log(b);
-
-  return <div>App</div>;
+  return <div>
+    App <Component/>
+    </div>;
 };
 
 export default App;
