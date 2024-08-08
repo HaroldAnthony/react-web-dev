@@ -15,3 +15,7 @@ My React.js-powered e-commerce platform (hopefully this builds up into a proper,
 <p><b>3) CSS integration - </b>The <b>"class"</b> to <b>"className"</b> conversion was performed, and separate components folder + separate .js+.css file pairs were created.</p>
 <p><b>4) Identical className error - </b>conversion of naming into (eg)- <b>header.module.css</b> + conversion of import into (eg)- <b>import styles from "./header.module.css"</b> + conversion of className into (eg)- <b>className = {styles.header}</b>, to avoid this specific error.</p>
 
+<br>
+
+
+
