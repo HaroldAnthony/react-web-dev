@@ -8,14 +8,14 @@ const Header = () => {
   const valuehandler = () => {
     // setvalue(value+1);
     // console.log(value);
-    setvalue(value+1);
+    setvalue(value + 1);
     console.log(value);
-  }
+  };
 
   const subtracthandler = () => {
-    setvalue(value-1);
+    setvalue(value - 1);
     console.log(value);
-  }
+  };
 
   return (
     <div className={styles.header}>
