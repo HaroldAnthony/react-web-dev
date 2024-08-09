@@ -3,10 +3,12 @@ import styles from "./header.module.css";
 import { useState } from "react";
 
 const Header = () => {
-  const [value, setvalue] = useState(0);
+  const [value, setvalue] = useState("");
 
   const valuehandler = () => {
-    setvalue(value+1);
+    // setvalue(value+1);
+    // console.log(value);
+    setvalue("updated");
     console.log(value);
   }
 
