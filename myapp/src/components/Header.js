@@ -18,16 +18,13 @@ const Header = () => {
     console.log(value);
   };
 
-  const a = () => {
-    console.log("Hello world");
-  }                                                           //PROP EXAMPLE 3 - BANNER
 
-  return (
+  return (                                                              //PROP EXAMPLE 4 - BANNER
     <div className={styles.header}>
       <p>This is a paragraph</p>
       <button onClick={valuehandler}>Addition</button>
       <button onClick={subtracthandler}>Subtraction</button>
-      <Banner heading={a}/>  
+      <Banner heading={{a:"Main Topic"}}/>      
     </div>
   );
 };

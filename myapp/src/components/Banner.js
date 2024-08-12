@@ -1,10 +1,11 @@
 import React from "react";
 
 const Banner = (props) => {
-  return (                                                                    //PROP EXAMPLE 3 - BANNER
+  return (                                                                    //PROP EXAMPLE 4 - BANNER
     <div>
+        <p>{props.heading.a}</p>
       Banner
-      <button onClick={props.heading}>Click here</button> 
+      <button>Click here</button> 
     </div>
   );
 };
