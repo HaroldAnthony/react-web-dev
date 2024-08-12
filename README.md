@@ -17,5 +17,11 @@ My React.js-powered e-commerce platform (hopefully this builds up into a proper,
 
 <br>
 
+<b>12-08=2024 11:40</b> - After exploring the possibilities with the <b>useState</b> React hook, the entire day was spent working on the various forms of the <b>props</b> hook, conveying with functions and objects as well.
+
+<br>
+
+
+
 
 
