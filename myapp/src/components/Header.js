@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./header.module.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Banner from "./Banner";  //PROP EXAMPLE - BANNER
+//import { useEffect } from "react";
 
 const Header = () => {
   const [value, setvalue] = useState(0);
