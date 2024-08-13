@@ -1,14 +1,10 @@
 import React from "react";
-import styles from "./header.module.css";
-import { useState} from "react";
-//import { useEffect } from "react";
+import { useState, useEffect} from "react";
 
 const Header = () => {
   const [value, setvalue] = useState(0);
 
   const valuehandler = () => {
-    // setvalue(value+1);
-    // console.log(value);
     setvalue(value + 1);
   };
 
@@ -16,12 +12,15 @@ const Header = () => {
     setvalue(value - 1);
   };
 
+  useEffect(() => {
+    console.log("changed the data");
+  },[value]);
 
-  return (                                                              //PROP EXAMPLE 4 - BANNER
-    <div className={styles.header}>
-      <p>This is a paragraph</p>
+
+  return (                                                              
+    <div>
       <button onClick={valuehandler}>Addition</button>
-      <button onClick={subtracthandler}>Subtraction</button> 
+      <button onClick={subtracthandler}>Subtraction</button>
       <h1>{value}</h1> 
     </div>
   );
