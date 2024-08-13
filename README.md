@@ -1,4 +1,4 @@
-# harrystore
+# react-web-dev
 
 The repository that deals with my React Native-based learning, understanding concepts on a basic level before moving onto building React.js projects.
 
