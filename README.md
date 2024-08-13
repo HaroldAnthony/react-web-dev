@@ -1,6 +1,6 @@
 # harrystore
 
-My React.js-powered e-commerce platform (hopefully this builds up into a proper, dynamic project that I can envision and aggressively manifest).
+The repository that deals with my React Native-based learning, understanding concepts on a basic level before moving onto building React.js projects.
 
 <br>
 
@@ -20,6 +20,8 @@ My React.js-powered e-commerce platform (hopefully this builds up into a proper,
 <b>12-08-2024 11:40</b> - After exploring the possibilities with the <b>useState</b> React hook, the entire day was spent working on the various forms of the <b>props</b> hook, conveying with functions and objects as well.
 
 <br>
+
+<b>13-08-2024 12:40</b> - With the learning of the <b>useEffect</b> hook, combining it with the usual <b>useState</b> hook, I am finally done with all the React Native concepts, and ready to move onto project-based learning (which already sounds exciting in my head!).
 
 
 
