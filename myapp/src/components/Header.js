@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./header.module.css";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 //import { useEffect } from "react";
 
 const Header = () => {
@@ -21,7 +21,8 @@ const Header = () => {
     <div className={styles.header}>
       <p>This is a paragraph</p>
       <button onClick={valuehandler}>Addition</button>
-      <button onClick={subtracthandler}>Subtraction</button>  
+      <button onClick={subtracthandler}>Subtraction</button> 
+      <h1>{value}</h1> 
     </div>
   );
 };
