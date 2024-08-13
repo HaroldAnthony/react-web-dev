@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./header.module.css";
 import { useState, useEffect} from "react";
+import Banner from "./Banner";
 
 const Header = () => {
   const [value, setvalue] = useState(0);
@@ -28,6 +29,7 @@ const Header = () => {
 
   return (                                                              
     <div className={styles.header}>
+      <Banner heading = {{a: "(props from Banner.js)"}}/>
       <button onClick={valuehandler}>Addition</button>
       <button onClick={subtracthandler}>Subtraction</button>
       <button onClick={statementhandler}>Boolean</button>
